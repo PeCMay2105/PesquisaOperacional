@@ -12,7 +12,7 @@ def gym_optimization_test(S=20, M=20, nome_caso="Teste"):
     """
     
     VOLUME_POR_GRUPO = 20  # Volume obrigatório por grupo (fixo)
-    X = 5 * VOLUME_POR_GRUPO  # Volume total semanal (80 séries)
+    X = 5 * VOLUME_POR_GRUPO  # Volume total semanal (100 séries)
     
     print(f"\n🏋️  CASO: {nome_caso.upper()} 🏋️")
     print("="*70)
@@ -24,7 +24,7 @@ def gym_optimization_test(S=20, M=20, nome_caso="Teste"):
     model = cp_model.CpModel()
     
     # Conjuntos
-    grupos_musculares = ['Peito', 'Costas', 'Pernas', 'Ombros']
+    grupos_musculares = ['Peito', 'Costas', 'Pernas', 'Ombros','Braço']
     dias_semana = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom']
     
     num_grupos = len(grupos_musculares)
