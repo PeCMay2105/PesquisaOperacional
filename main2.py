@@ -12,7 +12,7 @@ def gym_optimization_test(S=20, M=20, nome_caso="Teste"):
     """
     
     VOLUME_POR_GRUPO = 20  # Volume obrigatório por grupo (fixo)
-    X = 4 * VOLUME_POR_GRUPO  # Volume total semanal (80 séries)
+    X = 5 * VOLUME_POR_GRUPO  # Volume total semanal (80 séries)
     
     print(f"\n🏋️  CASO: {nome_caso.upper()} 🏋️")
     print("="*70)
