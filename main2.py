@@ -140,7 +140,7 @@ def executar_todos_os_testes():
     casos_teste = [
         # (S, M, nome)
         
-        # CASOS BÁSICOS - Volume fixo 80 séries
+        # CASOS BÁSICOS - Volume fixo 100 séries
         (20, 20, "Básico - Limites Generosos"),
         (15, 20, "Limite Diário Moderado"),
         (12, 20, "Limite Diário Restritivo"),
